@@ -1,0 +1,34 @@
+.service_slider .swiper_slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_slider_images {
+    border: 0px solid black;
+    margin: 0em auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.swiper-slide img {
+    border-radius: 1em;
+    margin: 0 auto;
+    display: block;
+    width: 94%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    border-radius: 50%;
+    color: snow;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+

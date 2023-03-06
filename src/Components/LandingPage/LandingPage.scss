@@ -1,0 +1,175 @@
+main {
+    border: 0px solid red;
+    // margin: 1em auto;
+    width: 100vw;
+    background-color: antiquewhite;
+    padding: 9vh 0 9vh 0;
+}
+
+.landing_page_slider_elements .slider_box>.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing_swiper_slide {
+    margin: 1em auto;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.landing_swiper_slide>img {
+    border-radius: 1em;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+// heading
+
+.lp_heading {
+    margin: 6em auto 2em auto;
+    width: 94%;
+    text-align: center;
+}
+
+.lp_heading h3 {
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.second_heading {
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 2em;
+    width: 94%;
+    text-align: center;
+}
+
+
+// welcome note
+
+.wlcm_note {
+    border: 0px solid red;
+    margin: 3em auto;
+    width: 90%;
+}
+
+.wlcm_note h4 {
+    text-align: center;
+}
+
+.wlcm_note h4 .span1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: snow;
+    text-shadow: 1px 1px 9px gray;
+}
+
+.wlcm_note h4 .span2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+    text-shadow: 1px 1px 12px gray;
+}
+
+.wlcm_note h5 {
+    border: 0px solid green;
+    margin: 1em auto;
+    color: snow;
+    text-transform: uppercase;
+    text-align: justify;
+    text-shadow: 1px 1px 9px gray;
+}
+
+
+// questions and answers
+
+.qna {
+    margin: 2em auto 0 auto;
+    width: 90%;
+    position: relative;
+}
+
+.question {
+    border: 3px solid snow;
+    border-radius: .6em;
+    margin: .6em auto;
+    padding: .3em 1em;
+    text-transform: uppercase;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-size: 80%;
+    font-weight: 500;
+    color: snow;
+    background-color: rgb(255, 196, 0);
+    box-shadow: 1px 1px 9px 1px gray;
+}
+
+.answer {
+    border-radius: .6em;
+    width: 100%;
+    padding: .6em;
+    text-align: justify;
+    height: 0%;
+    font-size: 0%;
+    transition: .1s;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: snow;
+    background-color: violet;
+    box-shadow: 1px 1px 9px 1px gray;
+    line-height: 0px;
+}
+
+.answer.overlay {
+    height: 100%;
+    font-size: 80%;
+    line-height: 18px;
+}
+
+
+// contact form
+
+.music_contact_form {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.music_contact_form .music_form {
+    // border: 1px solid violet;
+    border-radius: .6em;
+    outline: none;
+    margin: .6em auto;
+    padding: 1.3em;
+    width: 100%;
+    color: violet;
+    background-color: antiquewhite;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+textarea {
+    border: none;
+    outline: none !important;
+}
+
+.form_submit_button {
+    border: none !important;
+    background-color: rgb(0, 119, 255) !important;
+    color: snow !important;
+    font-weight: 600 !important;
+}
+
+
